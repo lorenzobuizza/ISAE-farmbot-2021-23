@@ -1,0 +1,221 @@
+
+ff: parsing domain file
+domain 'FARMBOT' defined
+ ... done.
+ff: parsing problem file
+problem 'MOTIONANDPICTURE' defined
+ ... done.
+
+
+
+Cueing down from goal distance:   36 into depth [1]
+                                  35            [1][2][3]
+                                  34            [1]
+                                  33            [1][2]
+                                  32            [1]
+                                  31            [1][2]
+                                  30            [1]
+                                  29            [1][2]
+                                  28            [1]
+                                  27            [1][2]
+                                  26            [1]
+                                  25            [1][2]
+                                  24            [1]
+                                  23            [1][2]
+                                  22            [1]
+                                  21            [1][2]
+                                  20            [1]
+                                  19            [1][2]
+                                  18            [1]
+                                  17            [1]
+
+Enforced Hill-climbing failed !
+switching to Best-first Search now.
+
+advancing to distance :   65
+                          64
+                          63
+                          62
+                          61
+                          60
+                          59
+                          58
+                          57
+                          56
+                          55
+                          54
+                          53
+                          52
+                          51
+                          50
+                          49
+                          48
+                          47
+                          46
+                          45
+                          44
+                          43
+                          42
+                          41
+                          40
+                          39
+                          38
+                          37
+                          36
+                          35
+                          34
+                          33
+                          32
+                          31
+                          30
+                          29
+                          28
+                          27
+                          26
+                          25
+                          24
+                          23
+                          22
+                          21
+                          20
+                          19
+                          18
+                          17
+                          16
+                          15
+                          14
+                          13
+                          12
+                          11
+                          10
+                           9
+                           8
+                           7
+                           6
+                           5
+                           4
+                           3
+                           2
+                           1
+                           0
+
+ff: found legal plan as follows
+
+step    0: MOVE ROBOT B6 A15
+        1: TAKE-IMAGE ROBOT I A15 CAMERA
+        2: MOVE ROBOT A15 A14
+        3: TAKE-IMAGE ROBOT H A14 CAMERA
+        4: MOVE ROBOT A14 A11
+        5: TAKE-IMAGE ROBOT G A11 CAMERA
+        6: MOVE ROBOT A11 A8
+        7: TAKE-IMAGE ROBOT F A8 CAMERA
+        8: MOVE ROBOT A8 A7
+        9: TAKE-IMAGE ROBOT E A7 CAMERA
+       10: MOVE ROBOT A7 A5
+       11: TAKE-IMAGE ROBOT D A5 CAMERA
+       12: MOVE ROBOT A5 A4
+       13: TAKE-IMAGE ROBOT C A4 CAMERA
+       14: MOVE ROBOT A4 A3
+       15: TAKE-IMAGE ROBOT B A3 CAMERA
+       16: MOVE ROBOT A3 A1
+       17: TAKE-IMAGE ROBOT A A1 CAMERA
+       18: MOVE ROBOT A1 B3
+       19: MOUNT-SEED-INJECTOR B3 ROBOT SEEDINJ
+       20: MOVE ROBOT B3 B5
+       21: GRAB-SEED SEED1 B5 ROBOT SEEDINJ
+       22: MOVE ROBOT B5 A16
+       23: INJECT-SEED SEED2 A16 ROBOT SEEDINJ
+       24: MOVE ROBOT A16 B5
+       25: GRAB-SEED SEED1 B5 ROBOT SEEDINJ
+       26: MOVE ROBOT B5 A13
+       27: INJECT-SEED SEED1 A13 ROBOT SEEDINJ
+       28: MOVE ROBOT A13 B5
+       29: GRAB-SEED SEED1 B5 ROBOT SEEDINJ
+       30: MOVE ROBOT B5 A9
+       31: INJECT-SEED SEED3 A9 ROBOT SEEDINJ
+       32: MOVE ROBOT A9 B3
+       33: DISMOUNT-SEED-INJECTOR B3 ROBOT SEEDINJ
+       34: MOVE ROBOT B3 B2
+       35: MOUNT-WEEDER B2 ROBOT WEEDER
+       36: MOVE ROBOT B2 A10
+       37: ELIMINATE-WEED A10 ROBOT WEEDER WEED2
+       38: MOVE ROBOT A10 A6
+       39: ELIMINATE-WEED A6 ROBOT WEEDER WEED1
+       40: MOVE ROBOT A6 B2
+       41: DISMOUNT-WEEDER B2 ROBOT WEEDER
+       42: MOVE ROBOT B2 B0
+       43: MOUNT-SOILSENSOR B0 ROBOT SOILSENSOR
+       44: MOVE ROBOT B0 A15
+       45: TAKE-DATA-BEFORE-WATER I A15 ROBOT SOILSENSOR
+       46: MOVE ROBOT A15 A14
+       47: TAKE-DATA-BEFORE-WATER H A14 ROBOT SOILSENSOR
+       48: MOVE ROBOT A14 A11
+       49: TAKE-DATA-BEFORE-WATER G A11 ROBOT SOILSENSOR
+       50: MOVE ROBOT A11 A8
+       51: TAKE-DATA-BEFORE-WATER F A8 ROBOT SOILSENSOR
+       52: MOVE ROBOT A8 A7
+       53: TAKE-DATA-BEFORE-WATER E A7 ROBOT SOILSENSOR
+       54: MOVE ROBOT A7 A5
+       55: TAKE-DATA-BEFORE-WATER D A5 ROBOT SOILSENSOR
+       56: MOVE ROBOT A5 A4
+       57: TAKE-DATA-BEFORE-WATER C A4 ROBOT SOILSENSOR
+       58: MOVE ROBOT A4 A3
+       59: TAKE-DATA-BEFORE-WATER B A3 ROBOT SOILSENSOR
+       60: MOVE ROBOT A3 A1
+       61: TAKE-DATA-BEFORE-WATER A A1 ROBOT SOILSENSOR
+       62: MOVE ROBOT A1 B0
+       63: DISMOUNT-SOILSENSOR B0 ROBOT SOILSENSOR
+       64: MOVE ROBOT B0 B1
+       65: MOUNT-WATERNOZZLE B1 ROBOT WATERINGNOZZLE
+       66: MOVE ROBOT B1 A15
+       67: IRRIGATE I A15 ROBOT WATERINGNOZZLE
+       68: MOVE ROBOT A15 A14
+       69: IRRIGATE H A14 ROBOT WATERINGNOZZLE
+       70: MOVE ROBOT A14 A11
+       71: IRRIGATE G A11 ROBOT WATERINGNOZZLE
+       72: MOVE ROBOT A11 A8
+       73: IRRIGATE F A8 ROBOT WATERINGNOZZLE
+       74: MOVE ROBOT A8 A7
+       75: IRRIGATE E A7 ROBOT WATERINGNOZZLE
+       76: MOVE ROBOT A7 A5
+       77: IRRIGATE D A5 ROBOT WATERINGNOZZLE
+       78: MOVE ROBOT A5 A4
+       79: IRRIGATE C A4 ROBOT WATERINGNOZZLE
+       80: MOVE ROBOT A4 A3
+       81: IRRIGATE B A3 ROBOT WATERINGNOZZLE
+       82: MOVE ROBOT A3 A1
+       83: IRRIGATE A A1 ROBOT WATERINGNOZZLE
+       84: MOVE ROBOT A1 B1
+       85: DISMOUNT-WATERNOZZLE B1 ROBOT WATERINGNOZZLE
+       86: MOVE ROBOT B1 B0
+       87: MOUNT-SOILSENSOR B0 ROBOT SOILSENSOR
+       88: MOVE ROBOT B0 A15
+       89: TAKE-DATA-AFTER-WATER I A15 ROBOT SOILSENSOR
+       90: MOVE ROBOT A15 A14
+       91: TAKE-DATA-AFTER-WATER H A14 ROBOT SOILSENSOR
+       92: MOVE ROBOT A14 A11
+       93: TAKE-DATA-AFTER-WATER G A11 ROBOT SOILSENSOR
+       94: MOVE ROBOT A11 A8
+       95: TAKE-DATA-AFTER-WATER F A8 ROBOT SOILSENSOR
+       96: MOVE ROBOT A8 A7
+       97: TAKE-DATA-AFTER-WATER E A7 ROBOT SOILSENSOR
+       98: MOVE ROBOT A7 A5
+       99: TAKE-DATA-AFTER-WATER D A5 ROBOT SOILSENSOR
+      100: MOVE ROBOT A5 A4
+      101: TAKE-DATA-AFTER-WATER C A4 ROBOT SOILSENSOR
+      102: MOVE ROBOT A4 A3
+      103: TAKE-DATA-AFTER-WATER B A3 ROBOT SOILSENSOR
+      104: MOVE ROBOT A3 A1
+      105: TAKE-DATA-AFTER-WATER A A1 ROBOT SOILSENSOR
+      106: MOVE ROBOT A1 B0
+      107: DISMOUNT-SOILSENSOR B0 ROBOT SOILSENSOR
+      108: MOVE ROBOT B0 B6
+     
+
+time spent:    0.00 seconds instantiating 797 easy, 0 hard action templates
+               0.00 seconds reachability analysis, yielding 106 facts and 692 actions
+               0.00 seconds creating final representation with 106 relevant facts
+               0.00 seconds building connectivity graph
+               0.02 seconds searching, evaluating 1836 states, to a max depth of 3
+               0.02 seconds total time
+
